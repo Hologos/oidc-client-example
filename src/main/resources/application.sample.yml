@@ -1,0 +1,11 @@
+spring:
+  security:
+    oauth2:
+      client:
+        registration:
+          cez-cas-apereo:
+            client-id: <id>
+            client-secret: <secret>
+        provider:
+          cez-cas-apereo:
+            issuer-uri: <url>
